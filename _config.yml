@@ -1,29 +1,7 @@
-title: "My Study Blog"
-description: "Notes, ideas, and learning resources"
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+title: Nathan's Blog
+description: Nathan's ML Journey
+theme: jekyll-theme-cayman
 
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-seo-tag
-
-minimal_mistakes_skin: "default"
-
-collections:
-  posts:
-    output: true
-    permalink: /:collection/:path/
-
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      sidebar:
-        nav: "main"
-
-author:
-  name: Your Name
-  bio: "Student of many things."
+# Allow custom pages with permalinks
+markdown: kramdown
+permalink: pretty
