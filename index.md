@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Welcome to My Site
+Welcome to My Site
 
 <nav>
   <a href="/">Home</a> |
