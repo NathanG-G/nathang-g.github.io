@@ -1,16 +1,14 @@
-title: Nathan's ML Blog
-description: My Journey
-remote_theme: "mmistakes/minimal-mistakes"
+title: "My Study Blog"
+description: "Notes, ideas, and learning resources"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
-# Optional: Use "darks" or "neutrals" for dark/light styling
 minimal_mistakes_skin: "default"
 
-# Needed for proper sidebar/nav
 collections:
   posts:
     output: true
@@ -24,12 +22,8 @@ defaults:
       layout: single
       author_profile: true
       sidebar:
-        nav: "posts"
+        nav: "main"
 
-# Author (optional)
 author:
   name: Your Name
-  avatar: "/assets/images/avatar.png"
   bio: "Student of many things."
-
-# Google Analytics, Disqus, etc. can go here too later
