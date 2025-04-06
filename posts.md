@@ -3,10 +3,9 @@ layout: default
 title: Posts
 permalink: /posts/
 ---
-# Posts
-
 {% include navbar.html %}
 
+# Posts
 Here you can find a list of all my posts:
 
 <ul>
